@@ -6,7 +6,7 @@ for i in range(1, n+1):
 print("sum of ", n, "numbers:", s)'''
 
 #bitwise operators
-a=10
+'''a=10
 b=12
 print(bin(a))
 print(bin(b))
@@ -14,4 +14,21 @@ print(bin(a&b))
 print(bin(a|b))
 print(bin(a^b))
 print(bin(~a))
-print(bin(~b))
+print(bin(~b))'''
+
+#if, if else, else if
+
+i = 10
+
+if i ==100:
+    print("true")
+else:
+    print("false")
+
+j =int(input("enter number1:"))
+k =int(input("enter numnber2:"))
+if j>k:
+    print(j, "is big ")
+else:
+    print(k, "is big")
+#ternary
