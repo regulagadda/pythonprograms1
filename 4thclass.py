@@ -11,9 +11,9 @@ print(s[4])
 l=[10,20,20,"ratna",'rani',5.4]
 print(l)
 print(type(l))
-l.remove(20)
+l1=l.remove(20)
 print(l[4])
-print(l)
+print(l1)
 
 #tuple example program
 t=(10,30,30,'A',6.5)
