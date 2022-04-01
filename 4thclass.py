@@ -16,7 +16,7 @@ print(l[4])
 print(l1)
 
 #tuple example program
-t=(10,30,30,'A',6.5)
+t=(10,30,46,'A',9.5)
 print(t)
 print(t[1])
 print(type(t))
