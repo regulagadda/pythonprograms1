@@ -18,9 +18,9 @@ print(bin(~b))'''
 
 #if, if else, else if
 
-'''i = 10
+i = 10
 
-if i ==100:
+if i ==10:
     print("true")
 else:
     print("false")
@@ -37,7 +37,7 @@ i= int(input("enter number1:"))
 j= int(input("enter number2:"))
 k=int(input("enter number3:"))
 max =i if i>j and i>k else j if j>k else k
-print("max value is:", max)'''
+print("max value is:", max)
 
 #else if, nested if, elif
 
