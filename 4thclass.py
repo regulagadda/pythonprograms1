@@ -26,4 +26,14 @@ s={10,10,20.5,"rani",'ravi'}
 print(s)
 print(type(s))
 
+#sum of two numbers at runtime
 
+a= int(input("enter num1:"))
+b=int(input("enter num2:"))
+print("sum is:", a+b)
+
+#add float values also
+
+a= float(input("enter num1:"))
+b= float(input("enter num2:"))
+print("sum is:", a+b)
