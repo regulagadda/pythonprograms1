@@ -1,4 +1,4 @@
-import shutil, os
+'''import shutil, os
 filename = [input("Enter file name:")]
 for files in filename:
   fileName,fileExtension = os.path.splitext(files)
@@ -10,7 +10,7 @@ for files in filename:
 
       #S3url = os.environ['S3_JOBS_URL'] + channel_name + '/' + file['name']
    else:
-    print("Format is not valid")
+    print("Format is not valid")'''
 
 import shutil, os
 filename = [input("Enter file name:")]
