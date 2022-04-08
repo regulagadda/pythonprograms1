@@ -43,9 +43,13 @@ def file_shared(payload):
 
             # if fileExtension.endswith(".docx" or ".doc" or ".pdf"):
             print("This file is:", files)
+            S3url = os.environ['S3_URL'] + channel_name + '/' + file['name']
+
             # print ('This file is:DOCX' and 'This file is PDF:' and 'This file is DOC:', files)
         elif fileExtension.endswith(".json"):
             print('This file is JSON:', files)
+            S3url = os.environ['S3_JOBS_URL'] + channel_name + '/' + file['name']
+
         else:
             print('Format is not valid')
     '''if extention == ".docx" or ".doc" or ".pdf":
