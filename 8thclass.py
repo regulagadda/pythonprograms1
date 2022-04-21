@@ -28,7 +28,7 @@ print(s.count(" "))'''
 '''s1=s.split(" ")
 for i in s1:
     print(i)'''
-
+#count even munbers and odd number count.
 n=168
 count=0
 count1=0
@@ -39,3 +39,9 @@ for i in range(1+n+1):
         count1=count+1
 print("Even count:", count)
 print("Odd count:", count1)
+
+#write a table by using for loop
+num = int(input("enter number:"))
+
+for i in range(1, 11):
+    print(num,'x', i, '=', num*i)
