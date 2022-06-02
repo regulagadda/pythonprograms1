@@ -50,8 +50,4 @@ def getIndexAtMinValue(array):
             idxAtMinValue = i
             minValue = currentValue
     return idxAtMinValue
-
-
-
-
     pass

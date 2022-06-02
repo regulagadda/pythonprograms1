@@ -1,3 +1,4 @@
+
 blocks = [
     {
         "gym": False,
@@ -33,12 +34,12 @@ def main():
 
         if index - 1 >=0:
             for key_1 in blocks[index-1].keys():
-                if blocks[index-1][key] == True and key_1 in tmp_reqs:
+                if blocks[index-1][key_1] == True and key_1 in tmp_reqs:
                     tmp_reqs.remove(key_1)
 
         if index + 1 < len(blocks):
             for key_2 in blocks[index+1].keys():
-                if blocks[index+1][key] == True and key_2 in tmp_reqs:
+                if blocks[index+1][key_2] == True and key_2 in tmp_reqs:
                     tmp_reqs.remove(key_2)
 
         if len(tmp_reqs) == 0:
@@ -47,3 +48,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+pass
