@@ -1,4 +1,4 @@
-
+#python program
 '''l=[10, "ratna", 34.5, 20, 'A' ]
 print(l)'''
 
