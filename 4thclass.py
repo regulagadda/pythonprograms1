@@ -1,6 +1,6 @@
 #string example
 #   01234
-s="durga"
+'''s="durga"
 print(s)
 print(type(s))
 print(s.replace("durga","mohan"))
@@ -36,4 +36,8 @@ print("sum is:", a+b)
 
 a= float(input("enter num1:"))
 b= float(input("enter num2:"))
-print("sum is:", a+b)
+print("sum is:", a+b)'''
+
+r=range(10)
+print(list(r))
+print(type(r))
