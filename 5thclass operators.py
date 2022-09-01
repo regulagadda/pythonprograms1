@@ -41,7 +41,6 @@ print(2<3 and 3<5)
 print(2<3 or 3<5)
 print( not 3<5)
 print(6<5 or 3<7)
-print(2<9 and 9<2)
 print( not 8<5)
 
 #membership------ in:, not in: (true or false)
